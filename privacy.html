@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CareCue Privacy Policy</title>
+  <meta name="description"
+    content="Read the CareCue privacy policy. Learn how your data is stored locally on your device and how permissions are used." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="images/carecue_logo.png" />
+</head>
+
+<body>
+  <div class="hero-bg"></div>
+  <div class="page-wrap">
+    <header class="nav">
+      <div class="shell nav-inner">
+        <a href="index.html" class="brand" aria-label="CareCue home">
+          <div class="brand-logo">
+            <img src="images/carecue_logo.png" alt="CareCue logo" loading="lazy" />
+          </div>
+          <div>
+            <div class="brand-text-title">CareCue</div>
+            <div class="brand-text-sub">Your personal health companion</div>
+          </div>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" data-nav-toggle>☰</button>
+        <nav class="nav-links" data-nav-links>
+          <a class="nav-link" href="index.html">Overview</a>
+          <a class="nav-link" href="features.html">Features</a>
+          <a class="nav-link" href="gallery.html">Screenshots</a>
+          <a class="nav-link nav-link--primary"
+            href="https://play.google.com/store/apps/details?id=com.vantage.carecue&amp;utm_source=site-privacy"
+            target="_blank" rel="noopener noreferrer">Get the app</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="shell">
+          <div class="doc">
+            <h1>CareCue Privacy Policy</h1>
+            <p class="doc-updated"><strong>Last updated:</strong> March 2025</p>
+
+            <p>
+              CareCue (“we”, “our”, “the app”) is a personal health logging app. This policy
+              describes what data the app uses and where it is stored.
+            </p>
+
+            <h2 class="doc-section-title">Data storage</h2>
+            <ul>
+              <li><strong>All your data is stored locally on your device.</strong> We do not operate
+                a server that collects or stores your health data.</li>
+              <li>
+                Data includes: water intake, sleep logs, medications, mood entries, appointments,
+                and optional voice notes.
+              </li>
+            </ul>
+
+            <h2 class="doc-section-title">Microphone (RECORD_AUDIO)</h2>
+            <ul>
+              <li>
+                The app may request <strong>microphone permission</strong> for the
+                <strong>voice notes</strong> feature (for example, attaching a short recording to a
+                sleep or mood entry).
+              </li>
+              <li>
+                <strong>Voice recordings are stored only on your device</strong> in the app's local
+                storage. We do not upload, transmit, or access these recordings.
+              </li>
+              <li>
+                You can decline the microphone permission; voice notes will simply be unavailable.
+              </li>
+            </ul>
+
+            <h2 class="doc-section-title">Other permissions</h2>
+            <ul>
+              <li><strong>Notifications:</strong> To remind you about water goals and medication
+                times.</li>
+              <li><strong>Calendar (optional):</strong> To sync appointments to your device
+                calendar if you enable that feature.</li>
+              <li><strong>Camera / photos (optional):</strong> To attach a photo of medication if
+                you use that feature.</li>
+            </ul>
+
+            <h2 class="doc-section-title">Changes</h2>
+            <p>
+              We may update this policy. The “Last updated” date at the top will change. Continued
+              use of the app after changes means you accept the updated policy.
+            </p>
+
+            <h2 class="doc-section-title">Contact</h2>
+            <p>
+              For questions or feedback, please email
+              <a href="mailto:vntg.solution@gmail.com">vntg.solution@gmail.com</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <div>© <span id="year"></span> CareCue. All rights reserved.</div>
+        <div class="footer-links">
+          <span class="footer-badge">Offline‑first • Your data stays with you</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
+
